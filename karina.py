@@ -4,3 +4,5 @@ def check_positive(number):
         # if it's more than zeoro or zero, it's considered positive
         return True
     return False
+
+# hi everyone
