@@ -46,7 +46,7 @@ def start_car(fuel_litres: int, oil_litres: int, engine_condition: str ):
     oil = oil_level (oil_litres)
     engine = engine_status(engine_condition)
 
-    if fuel == True and oil == True and engine == True:
+    if fuel is True and oil is True and engine is True:
         logging.info("Engine has started. Good Trip!")
     elif fuel == False:
         logging.info("Engine hasn't started.")
